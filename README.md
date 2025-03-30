@@ -100,5 +100,6 @@ Meeting ||--|{ act_meet : ""
 Responsible ||--|{ act_meet : ""
 Branch ||--|| Responsible : ""
 
+
 ```
 
