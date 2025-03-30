@@ -100,7 +100,5 @@ Meeting ||--|{ act_meet : ""
 Responsible ||--|{ act_meet : ""
 Branch ||--|| Responsible : ""
 
-style Meeting stroke:#FF5733,stroke-width:2px;
-
 ```
 
