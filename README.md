@@ -14,7 +14,9 @@
 - **Base de datos de actividades**: almacenar actividades con filtro por categorias y objetivos pedagógicos.
 - **Calendario**: visualizar las actividades programadas en un calendario.
 
-## Base de datos de actividades
+## Bases de datos
+
+### Base de datos de actividades
 
 ```mermaid
 erDiagram
@@ -57,7 +59,7 @@ Category ||--|{ act_cat : ""
 
 ```
 
-## Basede datos de reuniones
+### Basede datos de reuniones
 
 ```mermaid
 erDiagram
