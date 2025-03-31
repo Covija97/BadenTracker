@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{% static 'img/badentracker_logo.svg' %}">
+    <title>BadenTracker</title>
+</head>
+
+<style>
+    :root {
+        --color001: #f5ecddff; /* Beige cálido */
+        --color002: #253c4cff; /* Azul grisáceo oscuro */
+        --color003: #7d5b3eff; /* Marrón tierra */
+        --color004: #3c5a6eff; /* Azul verdoso suave */
+        --color005: #a64e2aff; /* Terracota intenso */
+        --color006: #e8b86bff; /* Dorado pastel */
+
+        --trans: #00000033;
+    }
+    * {box-sizing: border-box;}
+    body {
+        margin: 0px;
+    }
+    header {
+        align-items: center;
+        background-color: var(--color001);
+        display: flex;
+        overflow: hidden;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    header a {
+        align-items: center;
+        border-radius: 10px;
+        color: var(--color002);
+        display: flex;
+        float: left;
+        gap: 10px;     
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        
+    }
+    header a.logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+    }
+    header a:hover {
+        background-color: var(--trans);
+    }
+    header a.act {
+        background-color: var(--color006);
+    }
+    .hright {
+        float: right;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    @media screen and (max-width: 500px) {
+        header a {
+            align-items: center;
+            float: none;
+            flex-direction: column;
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+        .hright {
+            float: none;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+</style>
+
+<body>
+    <header>
+        <a href="/" class="logo">
+            <img src="{% static 'img/badentracker_logo.svg' %}" height="50px">
+            <h1>BadenTracker</h1>
+        </a> 
+        <div class="hright">
+            <a href="/acts" class="act">Actividades</a>
+            <a href="/meet">Reuniones</a>
+            <a href="/cald">Calendario</a>
+        </div>
+    </header>
+</body>
+</html>
