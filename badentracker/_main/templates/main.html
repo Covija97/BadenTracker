@@ -62,7 +62,7 @@
         align-items: center;
         gap: 10px;
     }
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 750px) {
         header a {
             align-items: center;
             float: none;
@@ -77,6 +77,29 @@
             flex-wrap: wrap;
         }
     }
+    .description {
+        margin: 20px auto;
+        width: 75%;
+        padding: 20px;
+        background-color: var(--color001);
+        border-radius: 15px;
+        color: var(--color002);
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 1000px;
+        text-align: center;
+        box-shadow: 0 10px 10px var(--trans);
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: var(--color001);
+        color: var(--color002);
+        text-align: center;
+        padding: 10px 0;
+    }
 </style>
 
 <body>
@@ -86,10 +109,28 @@
             <h1>BadenTracker</h1>
         </a> 
         <div class="hright">
-            <a href="/acts" class="act">Actividades</a>
+            <a href="/acts">Actividades</a>
             <a href="/meet">Reuniones</a>
             <a href="/cald">Calendario</a>
         </div>
     </header>
+
+    <br><br><br><br><br><br>
+
+    <div class="description">
+        <p>
+            <b>BadenTracker</b> es una aplicación para ayudar a los grupos scouts a planificar y gestionar sus reuniones de forma eficiente. 
+            <br>
+            Permite crear, almacenar y exportar programaciones en PDF con un formato específico y encabezado estándar. 
+            <br>
+            Cuenta con una base de datos de actividades, que se pueden filtrar por objetivos pedagógicos y tipo de actividad, 
+            facilitando la selección según las necesidades educativas del grupo. 
+            Además, incluye un calendario interactivo donde los usuarios pueden visualizar y gestionar sus reuniones de manera intuitiva.
+        </p>
+    </div>
+    
+    <footer>
+        <p>Javier Coronel Vides &copy; 2025</p>
+    </footer>
 </body>
 </html>
