@@ -40,6 +40,9 @@ INSTALLED_APPS = [
 
     # my apps
     '_main',
+    '_meet',
+    '_acts',
+    '_cald',
 ]
 
 MIDDLEWARE = [
