@@ -15,7 +15,7 @@ Subject: `Trabajo fin de Grado Superior`
 
 # 🗺️ Roadmap (40h) – Marzo y Mayo 2025
 
-## Planificación y estructura básica del proyecto (4h)
+## 🛠️ Planificación y estructura básica del proyecto (4h)
 - Definir modelos en Django
 - Crear proyecto y apps básicas
 
@@ -30,7 +30,7 @@ gantt
     Proyecto y apps básicas     : 01-03, 3d
 ```
 
-## Diseño de la base de datos(5h)
+## 🗄️ Diseño de la base de datos (5h)<a href="2.database.md"><img src="https://raw.githubusercontent.com/jcorvid509/.resGen/dbf0397a38c3e0828d9bd164f719d77f3d977cda/_arrow.svg" width="30" align="right"></a>
 - Definir esquemas de datos
 - Crear modelos de datos en Django
 - Configurar relaciones entre modelos
@@ -46,7 +46,7 @@ gantt
     Configurar relaciones       : 01-10, 1d
 ```
 
-## CRUD de Actividades (4h)
+## 📝 CRUD de Actividades (4h)
 - Crear modelos `Actividad` y `ObjetivoPedagogico`
 - Formularios
 - Listado y filtrado
@@ -62,7 +62,7 @@ gantt
     Listado y filtrado          : 01-14, 1d
  ```
 
-## CRUD de Reuniones (4h)
+## 📅 CRUD de Reuniones (4h)
 - Modelo `Programacion` + `ActividadProgramada`
 - Formularios
 - Listado y filtrado
@@ -78,7 +78,7 @@ gantt
     Listado y filtrado          : 01-18, 1d
 ```
 
-## Generador de PDF (5h)
+## 🖨️ Generador de PDF (5h)
 - Plantilla HTML para PDF
 - Integrar `WeasyPrint`
 - Botón de descarga en vista de programación
@@ -94,7 +94,7 @@ gantt
     Testeo                      : 01-23, 1d
  ```
 
-## Sistema de calendario (5h)
+## 📆 Sistema de calendario (5h)
 - Modelo `Reunion`
 - API para eventos
 - Integrar `FullCalendar` en frontend
@@ -110,7 +110,7 @@ gantt
     FullCalendar                : 01-27, 2d
 ```
 
-## Mejoras (4h)
+## ✨ Mejoras (4h)
 - Filtros múltiples
 - Diseño limpio de interfaces
 - Validaciones
@@ -126,7 +126,7 @@ gantt
     Validaciones                : 01-31, 1d
 ```
 
-## Tests y ajustes finales (4h)
+## 🧪 Tests y ajustes finales (4h)
 - Pruebas básicas
 - Corrección de errores
 - Pequeñas mejoras
@@ -142,7 +142,7 @@ gantt
     Pequeñas mejoras            : 02-03, 1d
 ```
 
-## Documentación (5h)
+## 📚 Documentación (5h)
 - README completo
 - Documentación
 
