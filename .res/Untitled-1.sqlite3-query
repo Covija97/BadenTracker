@@ -1,0 +1,46 @@
+-- database: ../badentracker/db.sqlite3
+
+CREATE TABLE IF NOT EXISTS `activities` (
+    'act_id' INTEGER PRIMARY KEY AUTOINCREMENT,
+    'act_name' TEXT NOT NULL,
+    'act_desc' TEXT,
+    'act_durat' TIME 
+);
+
+CREATE TABLE IF NOT EXISTS `objetives` (
+    'obj_id' INTEGER PRIMARY KEY AUTOINCREMENT,
+    'obj_name' TEXT NOT NULL,
+    'obj_desc' TEXT
+);
+
+CREATE TABLE IF NOT EXISTS `category` (
+    'cat_id' INTEGER PRIMARY KEY AUTOINCREMENT,
+    'cat_name' TEXT NOT NULL,
+    'cat_desc' TEXT
+);
+
+CREATE TABLE IF NOT EXISTS `materials` (
+    'mat_id' INTEGER PRIMARY KEY AUTOINCREMENT,
+    'mat_name' TEXT NOT NULL,
+    'mat_desc' TEXT
+);
+
+CREATE TABLE IF NOT EXISTS `act_obj` (
+    'act_id' INTEGER NOT NULL,
+    'obj_id' INTEGER NOT NULL,
+    FOREIGN KEY (act_id) REFERENCES activities(act_id),
+    FOREIGN KEY (obj_id) REFERENCES objetives(obj_id)
+);
+
+CREATE TABLE IF NOT EXISTS `act_cat` (
+    'act_id' INTEGER NOT NULL,
+    'cat_id' INTEGER NOT NULL,
+    FOREIGN KEY (act_id) REFERENCES activities(act_id),
+    FOREIGN KEY (cat_id) REFERENCES category(cat_id)
+);
+CREATE TABLE IF NOT EXISTS `act_mat` (
+    'act_id' INTEGER NOT NULL,
+    'mat_id' INTEGER NOT NULL,
+    FOREIGN KEY (act_id) REFERENCES activities(act_id),
+    FOREIGN KEY (mat_id) REFERENCES materials(mat_id)
+);
