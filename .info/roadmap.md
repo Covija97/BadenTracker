@@ -20,7 +20,7 @@ gantt
     axisFormat %j
 
     section Planing<br>(5h)
-    Definir modelos             : 01-01, 2d
+    Definir modelos             :active, 01-01, 2d
     Proyecto y apps básicas     : 01-03, 3d
 
     section Database<br>(5h)
