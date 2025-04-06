@@ -1,4 +1,19 @@
-## 🗺️ **Roadmap (40h) – Marzo y Mayo 2025**
+![](https://raw.githubusercontent.com/jcorvid509/.resGen/9cf65965f880c39d5e634d73522a6d656c4ea501/_bannerD.png#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/jcorvid509/.resGen/9cf65965f880c39d5e634d73522a6d656c4ea501/_bannerL.png#gh-light-mode-only)
+
+<a href="/README.md"><img src="https://raw.githubusercontent.com/jcorvid509/.resGen/9cf65965f880c39d5e634d73522a6d656c4ea501/_home.svg" width="30"></a>
+
+---
+
+Author: `Javier Coronel Vides`
+
+Course: `2º ASIR`
+
+Subject: `Trabajo fin de Grado Superior`
+
+---
+
+# 🗺️ Roadmap (40h) – Marzo y Mayo 2025
 
 | Objetivo principal                           | Horas estimadas | Tareas                                                                 |
 |----------------------------------------------|------------------|------------------------------------------------------------------------|

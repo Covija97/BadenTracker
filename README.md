@@ -1,3 +1,15 @@
+![](https://raw.githubusercontent.com/jcorvid509/.resGen/9cf65965f880c39d5e634d73522a6d656c4ea501/_bannerD.png#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/jcorvid509/.resGen/9cf65965f880c39d5e634d73522a6d656c4ea501/_bannerL.png#gh-light-mode-only)
+
+---
+
+Author: `Javier Coronel Vides`
+
+Course: `2º ASIR`
+
+Subject: `Trabajo fin de Grado Superior`
+
+---
 
 # 🧭 BadenTracker
 
