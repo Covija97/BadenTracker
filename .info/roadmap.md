@@ -1,35 +1,32 @@
 ## 🗓️ Roadmap BadenTracker
 
 ```mermaid
-timeline
-    title Roadmap BadenTracker (40h)
-    
-    section Semana 1 (6 - 12 abril)
-    🧠 Planificación y estructura del proyecto (4h): 2025-04-06
+gantt
+    title Roadmap BadenTracker (Total: 40h)
+    dateFormat  dd-mm
+    axisFormat  %d/%m
 
-    section Semana 2 (13 - 19 abril)
-    🧱 CRUD de Actividades (6h): 2025-04-13
-    🖼️ Frontend filtros actividades (2h): 2025-04-16
+    section Plan
+    Diseño de estructura y modelos         :active, plan1, 2025-04, 4h
 
-    section Semana 3 (20 - 26 abril)
-    🧱 CRUD de Programaciones (6h): 2025-04-20
-    🖼️ Frontend formulario programación (2h): 2025-04-22
+    section Backend
+    CRUD de Actividades                    :back1, 2025-04, 6h
+    CRUD de Programaciones                 :back2, 2025-04, 6h
+    Generador de PDF (WeasyPrint)         :back3, 2025-04, 5h
+    API para calendario                    :back4, 2025-05, 2h
 
-    section Semana 4 (27 abril - 3 mayo)
-    🧱 Generador de PDF con WeasyPrint (5h): 2025-04-27
+    section Frontend
+    Filtros y vistas para actividades      :front1, 2025-04, 2h
+    Formulario de programación             :front2, 2025-04, 2h
+    Calendario interactivo (FullCalendar) :front3, 2025-05, 4h
+    Mejora de interfaz y experiencia       :front4, 2025-05, 2h
 
-    section Semana 5 (4 - 10 mayo)
-    🧱 API calendario (2h): 2025-05-04
-    🖼️ Calendario interactivo con FullCalendar (4h): 2025-05-06
+    section Testeo
+    Pruebas funcionales y correcciones     :test1, 2025-05, 4h
 
-    section Semana 6 (11 - 17 mayo)
-    🖼️ Mejora de UI/UX y experiencia (2h): 2025-05-11
+    section Documentación
+    README y guía de uso                   :doc1, 2025-05, 2h
+    Despliegue local o remoto              :doc2, 2025-05, 3h
 
-    section Semana 7 (18 - 24 mayo)
-    🧪 Pruebas funcionales y ajustes (4h): 2025-05-18
-
-    section Semana 8 (25 - 31 mayo)
-    📚 Redacción de README y guía de uso (2h): 2025-05-25
-    📦 Deploy local/remoto (3h): 2025-05-28
 
 ```
