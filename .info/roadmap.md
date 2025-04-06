@@ -12,3 +12,17 @@
 | Tests y ajustes finales                      | 4h               | - Pruebas básicas<br>- Corrección de errores<br>- Pequeñas mejoras |
 | Documentación + Deploy local (opcional)      | 5h               | - README completo<br>- Instrucciones de uso<br>- Docker o deploy en Railway/Heroku |
 | **Total**                                         | **40h**          |                                                                                   |
+
+```mermaid
+gantt
+    title Roadmap (40h)
+    dateFormat  MM-DDD
+    axisFormat %d
+
+    section Planificación
+    Definir modelos             : 01-01, 2d
+    Proyecto y apps básicas     : 01-03, 2d
+
+    section Base de datos
+    Definir esquema             : 01-05, 2d
+```
