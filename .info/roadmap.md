@@ -15,18 +15,9 @@ Subject: `Trabajo fin de Grado Superior`
 
 # 🗺️ Roadmap (40h) – Marzo y Mayo 2025
 
-| Objetivo principal                           | Horas estimadas | Tareas                                                                 |
-|----------------------------------------------|:------------------:|------------------------------------------------------------------------|
-| Planificación<br>Estructura básica del proyecto | 4h               | - Definir modelos en Django<br>- Crear proyecto y apps básicas |
-| Diseño de la base de datos                    | 5h               | - Definir esquemas de datos<br>- Crear modelos de datos en Django<br>- Configurar relaciones entre modelos |
-| CRUD de Actividades                          | 4h               | - Crear modelos `Actividad` y `ObjetivoPedagogico`<br>- Formularios<br>- Listado y filtrado |
-| CRUD de Programaciones                       | 4h               | - Modelo `Programacion` + `ActividadProgramada`<br>- Formularios<br>- Listado y filtrado |
-| Generador de PDF                             | 5h               | - Plantilla HTML para PDF<br>- Integrar `WeasyPrint`<br>- Botón de descarga en vista de programación |
-| Sistema de calendario   | 5h               | - Modelo `Reunion`<br>- API para eventos<br>- Integrar `FullCalendar` en frontend |
-| Mejoras            | 4h               | - Filtros múltiples<br>- Diseño limpio de interfaces<br>- Validaciones |
-| Tests y ajustes finales                      | 4h               | - Pruebas básicas<br>- Corrección de errores<br>- Pequeñas mejoras |
-| Documentación + Deploy local (opcional)      | 5h               | - README completo<br>- Instrucciones de uso |
-| **Total**                                         | **40h**          |                                                                                   |
+## Planificación y estructura básica del proyecto (4h)
+- Definir modelos en Django
+- Crear proyecto y apps básicas
 
 ```mermaid
 gantt
@@ -38,6 +29,12 @@ gantt
     Definir modelos             :active, 01-01, 2d
     Proyecto y apps básicas     : 01-03, 3d
 ```
+
+## Diseño de la base de datos(5h)
+- Definir esquemas de datos
+- Crear modelos de datos en Django
+- Configurar relaciones entre modelos
+
 ```mermaid
 gantt
     dateFormat  DDD
@@ -48,6 +45,12 @@ gantt
     Crear modelos               : 01-08, 2d
     Configurar relaciones       : 01-10, 1d
 ```
+
+## CRUD de Actividades (4h)
+- Crear modelos `Actividad` y `ObjetivoPedagogico`
+- Formularios
+- Listado y filtrado
+
 ```mermaid
 gantt
     dateFormat  DDD
@@ -58,6 +61,12 @@ gantt
     Formularios                 : 01-13, 1d
     Listado y filtrado          : 01-14, 1d
  ```
+
+## CRUD de Reuniones (4h)
+- Modelo `Programacion` + `ActividadProgramada`
+- Formularios
+- Listado y filtrado
+
 ```mermaid
 gantt
     dateFormat  DDD
@@ -68,6 +77,12 @@ gantt
     Formularios                 : 01-17, 1d
     Listado y filtrado          : 01-18, 1d
 ```
+
+## Generador de PDF (5h)
+- Plantilla HTML para PDF
+- Integrar `WeasyPrint`
+- Botón de descarga en vista de programación
+
 ```mermaid
 gantt
     dateFormat  DDD
@@ -78,6 +93,12 @@ gantt
     WeasyPrint                  : 01-21, 2d
     Testeo                      : 01-23, 1d
  ```
+
+## Sistema de calendario (5h)
+- Modelo `Reunion`
+- API para eventos
+- Integrar `FullCalendar` en frontend
+
 ```mermaid
 gantt
     dateFormat  DDD
@@ -88,6 +109,12 @@ gantt
     Eventos                     : 01-25, 2d
     FullCalendar                : 01-27, 2d
 ```
+
+## Mejoras (4h)
+- Filtros múltiples
+- Diseño limpio de interfaces
+- Validaciones
+
 ```mermaid
 gantt
     dateFormat  DDD
@@ -98,6 +125,12 @@ gantt
     Diseño limpio               : 01-30, 1d
     Validaciones                : 01-31, 1d
 ```
+
+## Tests y ajustes finales (4h)
+- Pruebas básicas
+- Corrección de errores
+- Pequeñas mejoras
+
 ```mermaid
 gantt
     dateFormat  DDD
@@ -108,11 +141,16 @@ gantt
     Corrección                  : 02-02, 1d
     Pequeñas mejoras            : 02-03, 1d
 ```
+
+## Documentación (5h)
+- README completo
+- Documentación
+
 ```mermaid
 gantt
     dateFormat  DDD
     axisFormat %j
-    section Documentación<br>(5h)
+    section Documen.<br>(5h)
     Readmes                     : 02-04, 3d
     Documentación               : 02-07, 2d
 ```
