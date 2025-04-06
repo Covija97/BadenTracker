@@ -27,6 +27,4 @@ gantt
     section Documentación
     README y guía de uso                   :doc1, 2025-05, 2h
     Despliegue local o remoto              :doc2, 2025-05, 3h
-
-
 ```
