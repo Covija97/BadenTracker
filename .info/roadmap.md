@@ -5,7 +5,7 @@
 
 # 🗺️ Roadmap (40h) – Marzo y Mayo 2025
 
-## 🛠️ Planificación y estructura básica del proyecto (4h)
+## 🛠️ Planificación y estructura básica del proyecto (4h)<a href="1.planing.md"><img src="https://raw.githubusercontent.com/jcorvid509/.resGen/dbf0397a38c3e0828d9bd164f719d77f3d977cda/_arrow.svg" width="30" align="right"></a>
 - Definir modelos en Django
 - Crear proyecto y apps básicas
 
