@@ -1,30 +1,16 @@
-## 🗓️ Roadmap BadenTracker
+## 🗺️ **Roadmap (40h) – Marzo y Mayo 2025**
 
-```mermaid
-gantt
-    title Roadmap BadenTracker (Total: 40h)
-    dateFormat  dd-mm
-    axisFormat  %d/%m
+| Objetivo principal                           | Horas estimadas | Tareas                                                                 |
+|----------------------------------------------|------------------|------------------------------------------------------------------------|
+| Planificación + Estructura básica del proyecto | 4h               | - Definir modelos en Django<br>- Crear proyecto y apps básicas<br>- Configurar admin |
+| CRUD de Actividades                          | 6h               | - Crear modelos `Actividad` y `ObjetivoPedagogico`<br>- Formularios<br>- Listado y filtrado por tipo/objetivos |
+| CRUD de Programaciones                       | 6h               | - Modelo `Programacion` + `ActividadProgramada`<br>- Vista para crear programación con actividades ordenadas |
+| Generador de PDF                             | 5h               | - Plantilla HTML para PDF<br>- Integrar `WeasyPrint`<br>- Botón de descarga en vista de programación |
+| Sistema de calendario (Frontend + Backend)   | 6h               | - Modelo `Reunion`<br>- API para eventos<br>- Integrar `FullCalendar` en frontend |
+| Mejoras UX/UI + filtros avanzados            | 4h               | - Filtros múltiples<br>- Diseño limpio de interfaces<br>- Validaciones |
+| Tests + ajustes finales                      | 4h               | - Pruebas básicas<br>- Corrección de errores<br>- Pequeñas mejoras |
+| Documentación + Deploy local (opcional)      | 5h               | - README completo<br>- Instrucciones de uso<br>- Docker o deploy en Railway/Heroku |
 
-    section Plan
-    Diseño de estructura y modelos         :active, plan1, 2025-04, 4d
+---
 
-    section Backend
-    CRUD de Actividades                    :back1, 2025-04, 6d
-    CRUD de Programaciones                 :back2, 2025-04, 6d
-    Generador de PDF (WeasyPrint)         :back3, 2025-04, 5d
-    API para calendario                    :back4, 2025-05, 2d
-
-    section Frontend
-    Filtros y vistas para actividades      :front1, 2025-04, 2d
-    Formulario de programación             :front2, 2025-04, 2d
-    Calendario interactivo (FullCalendar) :front3, 2025-05, 4d
-    Mejora de interfaz y experiencia       :front4, 2025-05, 2d
-
-    section Testeo
-    Pruebas funcionales y correcciones     :test1, 2025-05, 4d
-
-    section Documentación
-    README y guía de uso                   :doc1, 2025-05, 2d
-    Despliegue local o remoto              :doc2, 2025-05, 3d
-```
+### ✅ Total: 40 horas
