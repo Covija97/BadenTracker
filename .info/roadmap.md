@@ -1,11 +1,11 @@
 ![](https://raw.githubusercontent.com/jcorvid509/.resGen/9cf65965f880c39d5e634d73522a6d656c4ea501/_bannerD.png#gh-dark-mode-only)
 ![](https://raw.githubusercontent.com/jcorvid509/.resGen/9cf65965f880c39d5e634d73522a6d656c4ea501/_bannerL.png#gh-light-mode-only)
 
-<a href="/README.md"><img src="https://raw.githubusercontent.com/jcorvid509/.resGen/9cf65965f880c39d5e634d73522a6d656c4ea501/_home.svg" width="30"></a>
+<a href="/README.md"><img src="https://raw.githubusercontent.com/jcorvid509/.resGen/9cf65965f880c39d5e634d73522a6d656c4ea501/_home.svg" height="30"></a>
 
 # 🗺️ Roadmap (40h) – Marzo y Mayo 2025
 
-## 🛠️ Planificación y estructura básica del proyecto (4h)<a href="1.planing.md"><img src="https://raw.githubusercontent.com/jcorvid509/.resGen/dbf0397a38c3e0828d9bd164f719d77f3d977cda/_arrow.svg" width="30" align="right"></a>
+## 🛠️ Planificación y estructura básica del proyecto (4h)<a href="1.planing.md"><img src="https://raw.githubusercontent.com/jcorvid509/.resGen/dbf0397a38c3e0828d9bd164f719d77f3d977cda/_arrow.svg" height="30" align="right"></a>
 - Definir modelos en Django
 - Crear proyecto y apps básicas
 
@@ -20,7 +20,7 @@ gantt
     Proyecto y apps básicas     : 01-03, 3d
 ```
 
-## 🗄️ Diseño de la base de datos (5h)<a href="2.database.md"><img src="https://raw.githubusercontent.com/jcorvid509/.resGen/dbf0397a38c3e0828d9bd164f719d77f3d977cda/_arrow.svg" width="30" align="right"></a>
+## 🗄️ Diseño de la base de datos (5h)<a href="2.database.md"><img src="https://raw.githubusercontent.com/jcorvid509/.resGen/dbf0397a38c3e0828d9bd164f719d77f3d977cda/_arrow.svg" height="30" align="right"></a>
 - Definir esquemas de datos
 - Crear modelos de datos en Django
 - Configurar relaciones entre modelos

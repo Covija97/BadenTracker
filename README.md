@@ -15,7 +15,7 @@ Subject: `Trabajo fin de Grado Superior`
 
 **BadenTracker** es una plataforma web desarrollada para facilitar la planificación, organización y gestión de reuniones dentro de un grupo scout. Su objetivo principal es brindar una herramienta intuitiva y funcional para monitores, jefes de unidad o responsables de rama, ayudando a estructurar y visualizar el trabajo pedagógico a lo largo del ciclo scout.
 
-## 🗺️ Roadmap<a href="/.info/roadmap.md"><img src="https://raw.githubusercontent.com/jcorvid509/.resGen/dbf0397a38c3e0828d9bd164f719d77f3d977cda/_arrow.svg" width="30" align="right"></a>
+## 🗺️ Roadmap<a href="/.info/roadmap.md"><img src="https://raw.githubusercontent.com/jcorvid509/.resGen/dbf0397a38c3e0828d9bd164f719d77f3d977cda/_arrow.svg" height="30" align="right"></a>
 
 ## 🚀 Características principales
 
