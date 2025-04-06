@@ -16,7 +16,7 @@ Subject: `Trabajo fin de Grado Superior`
 # 🗺️ Roadmap (40h) – Marzo y Mayo 2025
 
 | Objetivo principal                           | Horas estimadas | Tareas                                                                 |
-|----------------------------------------------|------------------|------------------------------------------------------------------------|
+|----------------------------------------------|:------------------:|------------------------------------------------------------------------|
 | Planificación<br>Estructura básica del proyecto | 4h               | - Definir modelos en Django<br>- Crear proyecto y apps básicas |
 | Diseño de la base de datos                    | 5h               | - Definir esquemas de datos<br>- Crear modelos de datos en Django<br>- Configurar relaciones entre modelos |
 | CRUD de Actividades                          | 4h               | - Crear modelos `Actividad` y `ObjetivoPedagogico`<br>- Formularios<br>- Listado y filtrado |
