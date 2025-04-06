@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ActsConfig(AppConfig):
+class CalendarConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = '_acts'
+    name = '_calendar'
