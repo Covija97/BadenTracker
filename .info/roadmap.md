@@ -37,6 +37,11 @@ gantt
     section Planing<br>(5h)
     Definir modelos             :active, 01-01, 2d
     Proyecto y apps básicas     : 01-03, 3d
+```
+```mermaid
+gantt
+    dateFormat  DDD
+    axisFormat %j
 
     section Database<br>(5h)
     Definir esquema             : 01-06, 2d
@@ -52,7 +57,12 @@ gantt
     Crear modelos               : 01-11, 2d
     Formularios                 : 01-13, 1d
     Listado y filtrado          : 01-14, 1d
-    
+ ```
+```mermaid
+gantt
+    dateFormat  DDD
+    axisFormat %j
+   
     section Reuniones<br>(5h)
     Crear modelos               : 01-15, 2d
     Formularios                 : 01-17, 1d
@@ -67,7 +77,12 @@ gantt
     Plantilla PDF               : 01-19, 2d
     WeasyPrint                  : 01-21, 2d
     Testeo                      : 01-23, 1d
-    
+ ```
+```mermaid
+gantt
+    dateFormat  DDD
+    axisFormat %j
+   
     section Calendario<br>(5h)
     Crear modelos               : 01-24, 1d
     Eventos                     : 01-25, 2d
@@ -82,6 +97,11 @@ gantt
     Filtros múltiples           : 01-29, 1d
     Diseño limpio               : 01-30, 1d
     Validaciones                : 01-31, 1d
+```
+```mermaid
+gantt
+    dateFormat  DDD
+    axisFormat %j
 
     section Testeo<br>(3h)
     Pruebas                     : 02-01, 1d
