@@ -16,8 +16,8 @@ gantt
     axisFormat %j
 
     section Planing<br>(5h)
-    Definir modelos             :active, 01-01, 2d
-    Proyecto y apps básicas     : 01-03, 3d
+    Definir modelos             :done, 01-01, 2d
+    Proyecto y apps básicas     :done, 01-03, 3d
 ```
 
 ## 🗄️ Diseño de la base de datos (5h)<a href="2.database.md"><img src="https://raw.githubusercontent.com/jcorvid509/.resGen/dbf0397a38c3e0828d9bd164f719d77f3d977cda/_arrow.svg" height="30" align="right"></a>
@@ -31,9 +31,9 @@ gantt
     axisFormat %j
 
     section Database<br>(5h)
-    Definir esquema             : 01-06, 2d
-    Crear modelos               : 01-08, 2d
-    Configurar relaciones       : 01-10, 1d
+    Definir esquema             :done, 01-06, 2d
+    Crear modelos               :done, 01-08, 2d
+    Configurar relaciones       :active, 01-10, 1d
 ```
 
 ## 📝 CRUD de Actividades (4h)
